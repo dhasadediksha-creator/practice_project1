@@ -9,36 +9,45 @@
 
 
 }
-.parent{
-    height: 100%;
-    width: 100%;
+.AB-parent{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(192, 228, 255);
-    font-size: 25px;
-    font-weight: 1000;
-    color: brown;
-    padding: 20px;
+    padding: 10px;
+    background-color: rgb(233, 134, 150);
+}
+.parent{
+    font-size: 24px;
 }
 .nav-parent{
+    font-weight: 900;
+    list-style: none;
     display: flex;
-    gap: 15px;
+    margin: 0;
+    padding: 0;
 }
+.nav-parents{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px
+}
+
 .image{
     background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTExL3Jhd3BpeGVsX29mZmljZV8zMF9hYnN0cmFjdF9ncmFkaWVudF93aGl0ZV9iYWNrZ3JvdW5kX3ZlY3Rvcl9wcl9kZGY3ZTJiNC0wMjU3LTRjMTUtOWFjNS0xMmQwZTA0N2E4MWYuanBn.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:550px;
-    width:100%;
+    height: 100%;
+    width: 100%;
+    
 
     align-items: center;
     justify-items: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 .nav-image{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
     justify-items: center;
     align-content: center;
@@ -47,88 +56,89 @@
 .div-image{
     justify-items: center;
     align-content: center;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(39, 39, 105);
 }
-.link{
-    background-image: url('https://images.ctfassets.net/nnkxuzam4k38/72FI1uoNvyy66AU9lmkxD0/29545557828129fd31864cdd486457f4/white-radial-gradient.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width:100%;
 
-   
+.products{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
 }
-.nav-link{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.nav-products{
+    width: 250px;
+    height: 250px;
+    border-radius: 70px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-content: center;
     justify-items: center;
-    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 2px solid gray;
+    overflow: hidden;
+     
 }
-.div-link{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-}
+
 .A{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
+    
 }
 .B{
-  font-size: 15px;
+    font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center; 
-    background-color: white; 
+    
 }
 .C{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
 }
 .D{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
 }
 .E{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
 }
 .a{
- font-size: 15px;
+   font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center; 
-    background-color: white;
+    
 }
 .b{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
 }
 .c{
     font-size: 15px;
     font-weight: 800;
     justify-items: center;
-    align-content : center;
-    background-color: white;
+    align-content : center;    
 
 }
 .d{
@@ -136,7 +146,7 @@
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+    
 
 }
 .e{
@@ -144,22 +154,24 @@
     font-weight: 800;
     justify-items: center;
     align-content : center;
-    background-color: white;
+
 
 }
 
 
 
- .form{
+.form{
     background-image: url('https://coolbackgrounds.imgix.net/4lBzkVBmJ0qvFJ90SJHEdV/7645fc49f7f1fb4a8c31a94fc4c97f4d/black-particles-background.png?auto=format%2Ccompress&q=60&w=3840');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height:550px;
     width:100%;
+    background-color: black;
+    
 
-    justify-items: center;
-    align-content : center;
+     justify-items: center;
+    align-content : center; 
 
 } 
 .nav-form{
@@ -175,6 +187,15 @@
     align-content: center;
     font-size: 30px;
 }
+#Name{
+    font-size: 20px;
+}
+#Email{
+    font-size: 20px;
+}
+#Password{
+    font-size: 20px;
+}
 
 .footer{
    background-image: url('https://coolbackgrounds.imgix.net/4lBzkVBmJ0qvFJ90SJHEdV/7645fc49f7f1fb4a8c31a94fc4c97f4d/black-particles-background.png?auto=format%2Ccompress&q=60&w=3840');
@@ -183,13 +204,15 @@
    background-size: cover;
    height: auto;
    width:100%; 
-
+   background-color: black;
    
    display: flex;
    justify-content: space-between;
    padding: 40PX;
    justify-items: center;
    font-size: medium;
+   flex-wrap: wrap;
+   align-items: center;
 }
 
 
@@ -214,32 +237,112 @@
 .footer1{
     color: white;
     font-size: 20px;
+    justify-items: center;
+    align-content : center;
+
+    
 }
 .footer2{
     color: white;
     font-size: 20px;
+    justify-items: center;
+    align-content : center;
+
 }
 .footer3{
     color: white;
     font-size: 20px;
+    justify-items: center;
+    align-content : center;
+
+    
 }
 .footer4{
     color: white;
     font-size: 20px;
+    justify-items: center;
+    align-content : center;
+
+
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
-   .link{
-    flex-wrap: wrap;
-} 
 
-   .footer{
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.products{
+    width: 90% !important;
+    height: auto !important;
+    flex-wrap: wrap;
+    overflow: hidden;
+} 
+.nav-products{
+    width: 150px;
+    height: 250px;
+    justify-items: center;
+}
+
+
+.footer{
     flex-direction:column ;
     flex-wrap: wrap;
     gap: 30px;
     align-items: center;
     justify-items: center;
    }
+
+
+.nav-form{
+    height: 200px;
+    width: 80%;
+    font-size: 20px;
+   }
+   #Name{
+    font-size: 15px;
+   }
+   #Email{
+    font-size: 15px;
+   }
+   #Password{
+    font-size: 15px;
+   }
+
+
+   .nav-parent {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: rgb(216, 195, 237);
+    width: 100%;
+    height: 66vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 999;
+  }
+
+  .nav-parent.show {
+    display: flex;
+  }
+
+  .nav-parent li {
+    margin-bottom: 20px;
+  }
+
+  .A-parent {
+    display: flex;
+  }
+
+  .input-field{
+    background-color: gray;
+    border: 1px solid green;
+    color: black;
+    border-radius: 12px;
+    padding-left: 5px;
+  }
+
+  .input-field::placeholder{
+    color: #000000;
+  }
 }
 
 
